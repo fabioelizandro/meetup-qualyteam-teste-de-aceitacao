@@ -3,6 +3,12 @@
 Projeto tenta demonstra como utilizar a ferramenta CodeceptJS para fazer testes de aceitação.
 Nele é feito um pequeno teste de aceitação do site do Google.
 
+## Requisitos
+
+* node
+* npm
+* chrome
+
 ## Instalação
 
 Primeiro instale todas as dependências do projeto 
