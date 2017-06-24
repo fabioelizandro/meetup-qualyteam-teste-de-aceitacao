@@ -12,6 +12,10 @@
     "I": "./actor.js"
   },
   "bootstrap": false,
-  "mocha": {},
+  "mocha": {
+    "reporterOptions": {
+      "reportDir": "output"
+    }
+  },
   "name": "meetup-quallytean-teste-de-aceitacao"
 }

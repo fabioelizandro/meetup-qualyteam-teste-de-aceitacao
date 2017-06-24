@@ -29,9 +29,17 @@ Para rodar mostrando todos os paços do ator
     
 Para rodar em modo de depuração
 
+NOTA: modo de depuração só faz sentido caso você tenha um `pause()` em seu teste
+
     $ npm run codeceptjs run -- --steps --debug
 
-NOTA: modo de depuração só faz sentido caso você tenha um `pause()` em seu teste
+Gerar relatório HTML
+
+    $ npm run codeceptjs run -- --reporter mochawesome
+
+# Prints de erros 
+
+Você pode encontrar na pasta output o print da browser sempre que um teste falhar.
 
 ## Gerador de códigos
 
