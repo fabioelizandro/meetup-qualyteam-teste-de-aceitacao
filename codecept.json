@@ -1,0 +1,17 @@
+{
+  "tests": "./*.feature.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "https://www.google.com",
+      "browser": "chrome"
+    }
+  },
+  "include": {
+    "I": "./actor.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "meetup-quallytean-teste-de-aceitacao"
+}

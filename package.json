@@ -1,0 +1,22 @@
+{
+  "name": "meetup-quallytean-teste-de-aceitacao",
+  "version": "1.0.0",
+  "description": "Meetup Quallytean",
+  "scripts": {
+    "selenium": "selenium-standalone",
+    "codeceptjs": "codeceptjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioelizandro/meetup-qualyteam-teste-de-aceitacao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabioelizandro/meetup-qualyteam-teste-de-aceitacao/issues"
+  },
+  "homepage": "https://github.com/fabioelizandro/meetup-qualyteam-teste-de-aceitacao#readme",
+  "devDependencies": {
+    "codeceptjs": "^0.6.3",
+    "selenium-standalone": "^6.5.0",
+    "webdriverio": "^4.8.0"
+  }
+}
